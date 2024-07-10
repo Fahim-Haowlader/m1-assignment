@@ -300,7 +300,7 @@ header {
 
 iframe {
     height: 565px;
-    width:1100px ;
+    width: 1100px;
     margin: auto;
     border-radius: 16px;
 }
@@ -315,4 +315,104 @@ iframe {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 
+}
+
+.cu-target-container {
+    width: 1140px;
+    height: 463px;
+    border: 1px solid red;
+    margin: 111px auto;
+}
+
+.cu-target-heading {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.cu-target-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+    padding: 0px 140px;
+    opacity: .7;
+}
+
+.cu-targets-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 48px 0px 0px 0px;
+}
+
+.cu-target1,
+.cu-target2,
+.cu-target3 {
+    border: 1px solid green;
+    width: 364px;
+    height: 200px;
+    padding: 40px;
+}
+
+.cu-target1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.cu-target2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.cu-target3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.cu-target-img{
+position: relative;
+width: 56px;
+height: 56px;
+margin-bottom: 12px;
+}
+.cu-target-h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin: 8px 0px;
+}
+.cu-targets-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin: 8px 0px;
+opacity: .7;
+}
+.cu-target-h4{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin: 24px 0px;
 }
