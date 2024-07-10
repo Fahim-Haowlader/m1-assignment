@@ -282,7 +282,8 @@ header {
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
-    margin: 24px 0px;
+    margin-top: 90px;
+    margin-bottom: 24px;
 }
 
 .inspiration-description {
@@ -378,41 +379,228 @@ iframe {
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
-.cu-target-img{
-position: relative;
-width: 56px;
-height: 56px;
-margin-bottom: 12px;
+
+.cu-target-img {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 12px;
 }
-.cu-target-h3{
+
+.cu-target-h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+}
+
+.cu-targets-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+    opacity: .7;
+}
+
+.cu-target-h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin: 24px 0px;
+}
+
+.n-targets {
+    border: 1px solid tan;
+}
+
+.n-targets-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.n-targets-subtitle {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+    margin: 24px 0px 36px;
+    padding: 5px 144px;
+}
+
+.n-target {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    margin: 24px auto;
+    padding: 40px;
+    width: 1140px;
+    height: 220px;
+    display: flex;
+}
+
+.n-target-text {
+    margin: 10px 40px;
+}
+
+.n-target-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+}
+
+.n-target-subtitle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: .7;
+    margin: 8px 0px;
+}
+
+.n-target-h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin: 24px 0px;
+}
+
+.support {
+    border: 1px solid red;
+    height: 314px;
+    width: 1140px;
+    border-radius: 16px;
+    background-image: url(/resources/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px auto;
+}
+
+.support-heading {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 50px 0px 0px;
+}
+
+.support-description {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+    margin: 20px 0px;
+    padding: 0px 200px;
+}
+
+.support-search {
+    position: relative;
+    left: 15%;
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    margin: 20px 0px 0px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-submit {
+    position: relative;
+    right: -160px;
+    width: 120px;
+    height: 55px;
+    padding: 17px 20px 17px 20px;
+    margin: 20px 16px 0px;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 800;
-line-height: 36px;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
 letter-spacing: 0%;
-text-align: left;
-margin: 8px 0px;
+text-align: center;
+
+
 }
-.cu-targets-description{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-margin: 8px 0px;
-opacity: .7;
+.my-social-site-container{margin-top: 80px;
+    width: 1123px;
+    height: 100px;
+    border: 1px solid green;
+    display: flex;
+    border-radius: 16px;
+    padding: 32px 150px 32px 150px;
+    background: rgba(13, 19, 33, 0.03);
+    justify-content: space-between;
+    align-items: center;
 }
-.cu-target-h4{
-color: rgb(13, 19, 33);
+i {
+    margin: 0px 20px;
+
+}
+.social-h{
+    color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
 letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
-margin: 24px 0px;
+text-align: center;
+
 }
