@@ -515,6 +515,7 @@ iframe {
     height: 314px;
     width: 1140px;
     border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2);
     background-image: url(/resources/assets/handshake.jpg);
     background-size: cover;
     background-position: center;
