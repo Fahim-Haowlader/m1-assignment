@@ -422,6 +422,10 @@ iframe {
     margin: 24px 0px;
 }
 
+.cu-target-h4>a{
+    color: black;
+}
+
 .n-targets {
     border: 1px solid tan;
 }
@@ -503,6 +507,9 @@ iframe {
     margin: 24px 0px;
 }
 
+.n-target-h4>a{
+    color: black;
+}
 .support {
     border: 1px solid red;
     height: 314px;
@@ -538,7 +545,7 @@ iframe {
     padding: 0px 200px;
 }
 
-.support-search {
+.support-text {
     position: relative;
     left: 15%;
     width: 548px;
@@ -591,10 +598,10 @@ text-align: center;
     align-items: center;
 }
 i {
-    margin: 0px 20px;
+    margin: 0px 10px;
 
 }
-.social-h{
+.my-social-site-containe h1{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 20px;
