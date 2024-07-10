@@ -46,10 +46,9 @@ header {
 }
 
 .hero {
-    border: 1px solid blue;
     display: flex;
     height: 652px;
-    background-image: url(/resources/assets/Hero-bg.png);
+    background-image: url(./resources/assets/Hero-bg.png);
     justify-content: center;
     align-items: center;
 
