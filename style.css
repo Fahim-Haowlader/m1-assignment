@@ -12,7 +12,6 @@ body {
 
 header {
     height: 131px;
-    border: 1px solid red;
 }
 
 .name {
@@ -48,14 +47,14 @@ header {
 .hero {
     display: flex;
     height: 652px;
-    background-image: url(/resources/assets/Hero-bg.png);
+    background-image: url(../resources/assets/Hero-bg.png);
     justify-content: center;
     align-items: center;
 
 }
 
 .hero-container {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     /* position: relative; */
 }
 
@@ -110,7 +109,7 @@ header {
 }
 
 .reason {
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
     width: 950px;
     height: 1050px;
     padding: 80px 97px 80px 97px;
@@ -121,16 +120,10 @@ header {
 }
 
 .reason-container {
-    border: 1px solid rgb(0, 255, 183);
+    /* border: 1px solid rgb(0, 255, 183); */
     width: 946px;
     height: 1060px;
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center; */
     margin: 0px 10px;
-
 }
 
 .reason-heading {
@@ -159,7 +152,7 @@ header {
 .reason1,
 .reason2,
 .reason3 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     margin: 48px;
     height: 240px;
@@ -320,7 +313,7 @@ iframe {
 .cu-target-container {
     width: 1140px;
     height: 463px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 111px auto;
 }
 
@@ -358,7 +351,7 @@ iframe {
 .cu-target1,
 .cu-target2,
 .cu-target3 {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 364px;
     height: 200px;
     padding: 40px;
@@ -426,7 +419,7 @@ iframe {
 }
 
 .n-targets {
-    border: 1px solid tan;
+    /* border: 1px solid tan; */
 }
 
 .n-targets-title {
@@ -510,12 +503,12 @@ iframe {
     color: black;
 }
 .support {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 314px;
     width: 1140px;
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.2);
-    background-image: url(/resources/assets/handshake.jpg);
+    background-image: url(../resources/assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     margin: 0px auto;
@@ -589,7 +582,7 @@ text-align: center;
 .my-social-site-container{margin-top: 80px;
     width: 1123px;
     height: 100px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     border-radius: 16px;
     padding: 32px 150px 32px 150px;
